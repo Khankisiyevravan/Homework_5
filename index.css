@@ -1,0 +1,83 @@
+header{
+    width: 70%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top:10px;
+    border-radius: 10px;
+}
+h1{
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 84px;
+}
+p{
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 100;
+    padding-bottom: 50px;
+}
+body{
+    background-color: gray;
+}
+.players{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+.me,
+.com{
+    width: 40%;
+    background-color: white;
+    height: 250px;
+    border-radius: 5px;
+}
+.me-winlose,
+.me-name,
+.me-score,
+.com-winlose,
+.com-name,
+.com-score{
+    text-align: center;
+}
+.me-winlose,
+.com-winlose{
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.me-name,
+.com-name{
+    line-height: 50px;
+    font-size: 30px;
+}
+.me-score,
+.com-score{
+    font-size: 30px;
+}
+.me-pic,
+.com-pic{
+    width: 100%;
+}
+.me-pics,
+.com-pics{
+    width: 40%;
+    justify-content: space-between;
+    background-color: white;
+    height: 250px;
+}
+.pics{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.vs{
+    font-size: 100px;
+    margin-top: 40px;
+    color: white;
+    font-weight: 100;
+}
